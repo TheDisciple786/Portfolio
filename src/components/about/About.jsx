@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from "../../assets/John-Cv.pdf";
+import CV from "../../assets/Manav Resume.pdf";
 import AboutImg from "../../assets/profile.png";
 import "./about.css";
 import Info from "./Info";
@@ -14,7 +14,7 @@ const About = () => {
                 <div className="about__data">
                     <Info />
                     <p className="about__description">
-                        Frontend developer, passionate about web development and new technologies. I have experience in creating web applications with React and Node. I am a quick learner and a team player. I am always looking for new challenges and opportunities to grow as a developer.
+                        Full stack developer, passionate about web development and new technologies. I have experience in creating web applications with React and Node. I am a quick learner and a team player. I am always looking for new challenges and opportunities to grow as a developer.
                     </p>
                     <a download="" href={CV} className="button button--flex">Download CV
                         <svg
